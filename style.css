@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    overflow-x:hidden;
+}
 .front input{
     border-radius:15px;
     
@@ -132,7 +135,6 @@ ul{
         font-size: 8px;
 }
 }
-
 
 
 
