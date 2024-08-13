@@ -3,17 +3,6 @@
     padding: 0;
 }
 
-body{
-    overflow-x:hidden;
-}
-.front input{
-    border-radius:15px;
-    
-}
-.icon{
-    color:grey;
-    margin-left:-50px;
-}
 .user{
     padding:8px;
     padding-left:13px;
@@ -140,6 +129,13 @@ ul{
         font-weight: bold;
         font-size: 8px;
 }
+    .founder-content p{
+        margin: 0;
+    }
+    .cartdetails{
+        margin-left: 5px;
+    }
+ 
 }
 
 
