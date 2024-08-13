@@ -111,6 +111,12 @@ ul{
 }
 
 @media screen and (max-width:792px){
+    .first_bar{
+        font-size: 10px;
+    }
+    .nav_bar{
+        font-size: 10px;;
+    }
     .cs img{
         height:200px;    
     }
