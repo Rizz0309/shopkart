@@ -148,11 +148,10 @@ ul{
         padding:0 !important;
     }
     .offersectionholder{
-        margin-top:8px;
+        margin-top:8px ;
         margin-bottom:8px;
         margin-left:0;
         margin-right: 0;
-        padding:0;
     }
     .first_bar{
         font-size: 10px;
@@ -261,7 +260,8 @@ ul{
     } */
     .offerrow{
         margin:0;
-        padding: 0;
+        padding-top:8px !important;
+        padding-bottom:8px !important;
     }
     .offersection{
         margin-left:0;
@@ -271,9 +271,7 @@ ul{
         padding:0;
 
     }
-    .offer-row{
-        margin: 0;
-    }
+
     
  
 }
