@@ -238,6 +238,7 @@ ul{
         margin-top:-160px !important;
         margin-left:135px !important;
     }
+
     .offer-prod-details{
        
         background-color: white;
@@ -266,16 +267,23 @@ ul{
     .offersection{
         margin-left:0;
         margin-right:0;
-        padding-left:0;
-        padding-right: 0;
+        padding-left:0 !important;
+        padding-right: 0 !important;
         padding:0;
 
     }
-
-    
+    .card img{
+        border-radius: 50%;
+        margin-top:25px;
+        width:100px;
+        height:100px;
+    }
  
 }
-
+.card img{
+    border-radius: 50%;
+    margin-top:25px;
+}
 
 @media screen and (max-width:768px){
     .first_bar{
@@ -375,6 +383,7 @@ ul{
     }
     .offerrowholder{
         margin-top:20px;
+        
     }
     
  
