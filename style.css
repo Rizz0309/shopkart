@@ -140,7 +140,10 @@ ul{
     min-height:150px;
 }
 
-@media screen and (max-width:577px){
+@media screen and (max-width:576px){
+    .offersection{
+        padding:0;
+    }
     .offersectionholder{
         margin:0;
         padding:0;
@@ -204,51 +207,51 @@ ul{
     }
 
     .offerimgholder img{
-        width:25px;
-        height:25px;
+        width:160px !important;
+        height:160px !important;
         
     }
-    /* .offertagholder{
+    .offertagholder{
         display:flex;
         width:100%;
         justify-content:center;
-    } */
+    }
     
     .offerimg{
         position: relative;
         
     }
     .offertag{
-        display: inline-flex;
+        display: inline-flex !important;
        
-        position:absolute;
-        background-color: red;
-        color:white;
-        padding:2px;
-        border:none;
-        z-index:1;
-        margin-top:-200px;
-        margin-left:170px;
+        position:absolute !important;
+        background-color: red !important;
+        color:white !important;
+        padding:2px !important;
+        border:none !important;
+        z-index:1 !important;
+        margin-top:-160px !important;
+        margin-left:135px !important;
     }
     .offer-prod-details{
        
         background-color: white;
-        width:50px;
+        width:160px !important;
     }
     .offer-prod-details-holder{
-        min-height:155px;
+        min-height:285px !important;
     }
     .offerrowholder{
         margin-top:20px;
     }
-    .offerimgodd{
+    /* .offerimgodd{
         display:flex;
         justify-content: start;
     }
     .offerimgodd{
         display:flex;
         justify-content: end;
-    }
+    } */
     .offerrow{
         margin:0;
         padding: 0;
@@ -329,8 +332,8 @@ ul{
     }
 
     .offerimgholder img{
-        width:150px;
-        height:150px;
+        width:200px;
+        height:200px;
     }
     .offertagholder{
         display:flex;
@@ -357,7 +360,7 @@ ul{
     .offer-prod-details{
        
         background-color: white;
-        width:150px;
+        width:200px;
     }
     .offer-prod-details-holder{
         min-height:150px;
