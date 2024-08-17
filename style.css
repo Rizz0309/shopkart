@@ -158,11 +158,11 @@ ul{
 }
 @media screen and (max-width:576px){ 
     .footer h4{
-        font-size: 12px !important;
+        font-size: 10px !important;
         
     }
     .footer p{
-        font-size: 10px;
+        font-size: 8px !important;
     }
 
     .slidingimg img{
