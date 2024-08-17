@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .offerrowholder{
     margin-top:20px;
 }
@@ -25,7 +26,7 @@
 }
 
 ul{
-    background-color:rgb(249, 221, 185);
+    background-color:white;
 
 }
 .cartholder{
@@ -77,7 +78,7 @@ ul{
     
 }
 
-.founder-content p{
+.founder-content span{
     display:grid;
     justify-items:center;
     margin:0;
@@ -109,6 +110,12 @@ ul{
 .offersection{
     background-color: rgb(207, 198, 198);
 }
+.products-section{
+    background-color: rgb(207, 198, 198);
+}
+.products-section .offer-prod-details{
+    min-height: 175px;
+}
 .offertagholder{
     display:flex;
     width:100%;
@@ -139,8 +146,25 @@ ul{
 .offer-prod-details-holder{
     min-height:150px;
 }
-
+.map-section p .location{
+    color:red;
+}
+.submit-button{
+    border:none;
+    padding: 4px;
+    background-color: blue;
+    color:white;
+    border-radius:5px;
+}
 @media screen and (max-width:576px){ 
+    .footer h4{
+        font-size: 12px !important;
+        
+    }
+    .footer p{
+        font-size: 10px;
+    }
+
     .slidingimg img{
         height:300px !important;
     }
@@ -183,7 +207,7 @@ ul{
         font-weight: bold;
         font-size: 8px;
 }
-    .founder-content p{
+    .founder-content span{
         margin: 0;
     }
     .cartdetails{
@@ -280,12 +304,20 @@ ul{
     }
  
 }
-.card img{
+.service-section .card img{
     border-radius: 50%;
     margin-top:25px;
 }
+.card{
+    margin-top:20px;
+    min-height: 250px;
+}
 
 @media screen and (max-width:768px){
+    .footer h4{
+        font-size: 18px;
+        color:grey;
+    }
     .first_bar{
         font-size: 10px;
     }
