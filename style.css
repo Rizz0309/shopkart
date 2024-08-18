@@ -110,8 +110,16 @@ ul{
 .offersection{
     background-color: rgb(207, 198, 198);
 }
+.offersection a{
+    color:black;
+    text-decoration: none;
+}
 .products-section{
     background-color: rgb(207, 198, 198);
+}
+.products-section a{
+    color:black;
+    text-decoration: none;
 }
 .products-section .offer-prod-details{
     min-height: 175px;
