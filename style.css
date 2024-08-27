@@ -255,6 +255,13 @@ ul{
 
 
 @media screen and (max-width:576px){ 
+    .offer-price{
+        margin:0 !important;
+        display:block !important;
+    }
+    .offersection p span{
+        width:100% !important;
+    }
     .offersection .card{
         min-height:840px !important;
     
@@ -266,7 +273,7 @@ ul{
         width:130px !important;
     }
     .products-section .card{
-        min-height:840px !important;    
+        min-height:900px !important;    
     }
     .products-section .card-body{
         width:130px !important;    
