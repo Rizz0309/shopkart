@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons/css/all.min.css">
+    <script src="icons/js/all.min.js"></script>
+    <style>
+        ul div{
+            display:flex;
+
+        }
+        .flex-1{
+            flex-grow: 1;
+            justify-content: flex-end;
+        }
+        .flex-2{
+            width:30%;
+            justify-content: flex-end;
+            margin-right:10px;
+        }
+
+
+        ul {
+            background: white;
+            padding: 0;
+            margin: 0;
+        }
+        li a {
+            margin-left: 10px;
+        }
+        .search-bar {
+            
+            width:90% !important;
+        }
+        .search-bar input {
+            height: 35px;
+            background-color: #f8f9fa;
+            border: none;
+            width: 70%;
+        }
+
+        @media screen and (max-width:576px){
+            ul div{
+                display:flex;
+                padding: 0 !important;;
+    
+            }
+            .nav{
+                padding:0;
+            }
+            .flex-1{
+                width:50%;
+                justify-content: center;
+            }
+            .flex-2{
+                width:45% !important;
+                justify-content: flex-end;
+                margin-right:5px;
+            }
+            li a {
+                margin-left: 5px !important;
+                font-size: 12px;
+            }
+            .search-bar {
+            
+                width:80% !important;
+            }
+
+            
+
+        }
+
+        @media screen and (max-width:992px){
+            li a {
+                margin-left: 10px;
+                
+                
+            }
+            .products-item .card{
+                min-height:450px !important;
+            }
+            .search-bar {
+                display: flex ;
+                align-items: center ;
+                width:70% ;
+                justify-content: center ;
+            }
+            .search-bar input {
+                height: 35px ;
+                background-color: #f8f9fa;
+                border: none;
+                width: 80% ;
+            }
+
+        }
+    </style>
+</head>
+<body style="background-color: #e2e9f0;">
+    <ul class="nav nav-tabs p-2 align-items-center">
+        <div class="flex-1">
+            <li class="nav-item search-bar d-flex justify-content-center">
+
+                <input type="search" name="search" id="search" placeholder="Search">
+                <button class="btn btn-info text-dark" style="height:35px;"><i class="fa-solid fa-magnifying-glass"></i> </button>                  
+            </li>
+        </div>
+        <div class="d-flex flex-2 flex-end">
+            <li class="nav-item">
+                <a href="index.html" class="text-dark text-decoration-none">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="login.html" class="text-dark text-decoration-none">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Login</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="text-dark text-decoration-none">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Cart</span>
+                </a>
+            </li>
+        </div>
+    </ul>
+    <section class="products-item products-section bg-white my-4" style="padding: 8px;">
+        <h1 class="text-center">Groceries</h1>
+        <div class="container-fluid offersectionholder p-0"> 
+            <div class="row offerrow"style="margin:8px;">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                                <a href="#">
+                                <img src="images/gro1.webp" class="img-fluid" height="300px" class="m-2">
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Kapiva Dia Free Juice, 1L | Clinically Proven Diabetic care | Amla, Karela, Jamun, Guduchi & 7 More
+                                    </p>
+                                    <p class="" style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.599</p>
+        
+                                </div>
+                            </a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                                <a href="#">
+                                <img src="images/gro2.webp" class="img-fluid" height="300px" class="m-2">
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Kohinoor Authentic Basmati Biryani Kit, Hyderabadi | Easy 3-Step Recipe | Ready To Cook Biryani, 339g</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.139</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <img src="images/gro3.webp" class="img-fluid" height="300px" class="m-2">
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Colavita Fettuccine Pasta 500 g | Durum Wheat Pasta | Imported From Italy</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.395</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                   
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                            <img src="images/gro4.webp" class="img-fluid" height="300px" class="m-2">
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Colavita Fettuccine Durum Wheat Pasta (500g) | Imported From Italy | Pack of 2</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.550</p>    
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <img src="images/gro5.webp" class="img-fluid" height="300px" class="m-2">
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Fortune Sunlite Refined Sunflower Oil, 1L</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.134</p>    
+                                        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                            <img src="images/gro6.webp" class="img-fluid" height="300px" class="m-2">
+                            <div class="card-body" style="width:300px">
+                                <p class="card-title">Fortune Sunlite Refined Sunflower Oil, 5L Jar</p>
+                                <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.995</p>        
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <img src="images/gro7.webp" class="img-fluid" height="300px" class="m-2">
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Tide Plus Double Power Detergent Washing Powder Jasmine & Rose 6kg + 2kg FREE</p>
+                                    <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.884</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <img src="images/gro8.webp" class="img-fluid" height="300px" class="m-2">
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Tata Sampann Unpolished Toor Dal/Arhar Dal, 1kg</p>
+                                    <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.260</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <img src="images/gro9.webp" class="img-fluid" height="300px" class="m-2">
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Surf Excel Matic Top Load Liquid Detergent 3.2 L Refill, Designed for Tough Stain Removal on Laundry in Washing Machines - Mega Pack (Package may differ)</p>
+                                    <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.427</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+        
+    </section>
+
+    <div class="footer bg-dark text-white">
+        <div class="row m-0 p-0">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <h4 class="my-2 text-muted">About</h4>
+                <p>Contact us</p>
+                <p>About us</p>
+                <p>ShopKart Stories</p>
+                <p>Press</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <h4 class="my-2 text-muted">Group Companies</h4>
+                <p>Flip Kart</p>
+                <p>Amazon</p>
+                <p>Myntra</p>
+                
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <h4 class="my-2 text-muted">Help</h4>
+                <p>Payment</p>
+                <p>Shipping</p>
+                <p>Cancellation</p>
+                <p>FAQ</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons/css/all.min.css">
+    <script src="icons/js/all.min.js"></script>
+    <style>
+        ul div{
+            display:flex;
+
+        }
+        .prod-img-wrapper{
+            height:300px;
+            margin-bottom:80px;
+        }
+        .flex-1{
+            flex-grow: 1;
+            justify-content: flex-end;
+        }
+        .flex-2{
+            width:30%;
+            justify-content: flex-end;
+            margin-right:10px;
+        }
+
+
+        ul {
+            background: white;
+            padding: 0;
+            margin: 0;
+        }
+        li a {
+            margin-left: 10px;
+        }
+        .search-bar {
+            
+            width:90% !important;
+        }
+        .search-bar input {
+            height: 35px;
+            background-color: #f8f9fa;
+            border: none;
+            width: 70%;
+        }
+
+        @media screen and (max-width:576px){
+            ul div{
+                display:flex;
+                padding: 0 !important;;
+    
+            }
+            .prod-img-wrapper{
+                height:150px;
+                margin-bottom: 40px;
+            }
+            .products-item .card{
+                min-height:650px !important;
+            }
+            .nav{
+                padding:0;
+            }
+            .flex-1{
+                width:50%;
+                justify-content: center;
+            }
+            .flex-2{
+                width:45% !important;
+                justify-content: flex-end;
+                margin-right:5px;
+            }
+            li a {
+                margin-left: 5px !important;
+                font-size: 12px;
+            }
+            .search-bar {
+            
+                width:80% !important;
+            }
+
+            
+
+        }
+
+        @media screen and (max-width:992px){
+            li a {
+                margin-left: 10px;
+                
+                
+            }
+            .search-bar {
+                display: flex ;
+                align-items: center ;
+                width:70% ;
+                justify-content: center ;
+            }
+            .search-bar input {
+                height: 35px ;
+                background-color: #f8f9fa;
+                border: none;
+                width: 80% ;
+            }
+
+        }
+    </style>
+</head>
+<body style="background-color: #e2e9f0;">
+    <ul class="nav nav-tabs p-2 align-items-center">
+        <div class="flex-1">
+            <li class="nav-item search-bar d-flex justify-content-center">
+
+                <input type="search" name="search" id="search" placeholder="Search">
+                <button class="btn btn-info text-dark" style="height:35px;"><i class="fa-solid fa-magnifying-glass"></i> </button>                  
+            </li>
+        </div>
+        <div class="d-flex flex-2 flex-end">
+            <li class="nav-item">
+                <a href="index.html" class="text-dark text-decoration-none">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="login.html" class="text-dark text-decoration-none">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Login</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="text-dark text-decoration-none">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Cart</span>
+                </a>
+            </li>
+        </div>
+    </ul>
+    <section class="products-item products-section bg-white my-4" style="padding: 8px;">
+        <h1 class="text-center">Electronics</h1>
+        <div class="container-fluid offersectionholder p-0"> 
+            <div class="row offerrow"style="margin:8px;">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                                <a href="#">
+                                <div class="prod-img-wrapper">
+                                    <img src="images/ele1.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">E Gate K9 Pro-Max Fully Automatic Smart Projector, Brightest 9000 Lumens| Full HD 1080p Native 4k Support | Auto Focus + Auto Keystone | 534cm Max Screen | HDMI, Dual WiFi & BT | Netflix, Prime & more
+                                    </p>
+                                    <p class="" style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.13,990</p>
+        
+                                </div>
+                            </a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                                <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/ele2.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">kit4curious 125 projects diy activity science electronics starter mega kit with user guide- Multi color</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.629</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/ele3.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">XElectron C50 WiFi Bluetooth LED Projector 7500 Lumens Full HD 1080P Resolution, 300 inch Display 4K Support, Digital Zoom</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.13,990</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                   
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                            <div class="prod-img-wrapper">
+                            <img src="images/ele4.webp" class="img-fluid" height="300px" class="m-2">
+                            </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">XElectron Android C9 Plus 1080p Native Resolution Full HD 4K Support Smart Projector | 508 cm Screen | 6900 Lumen (550 ANSI) | 4P+4D Digital Keystone, Screen Mirroring, WiFi, Bluetooth C9A (Silver)</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.11,948</p>    
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/ele5.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">beatXP Kitchen Scale Multipurpose Portable Electronic Digital Weighing Scale | Weight Machine With Back light LCD Display | White |10 kg | 2 Year Warranty</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.299</p>    
+                                        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                            <div class="prod-img-wrapper">
+                            <img src="images/ele6.webp" class="img-fluid" height="300px" class="m-2">
+                            </div>
+                            <div class="card-body" style="width:300px">
+                                <p class="card-title">ZEBRONICS THUNDER Bluetooth 5.3 Wireless Headphones with 60H Backup, Gaming Mode, Dual Pairing, ENC, AUX, Micro SD, Voice assistant, Comfortable Earcups, Call Function(Black)</p>
+                                <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.799</p>        
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/ele7.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Ultrasonic Pest Repeller, Silent Electronic Pest Repellent Plug in Indoor Pest Control, Insect Mosquito Killer Machine, Mosquito Repellent for House,Lizard, Rat, Cockroach</p>
+                                    <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.349</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/ele8.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">STRIFF Adjustable Laptop Tabletop Stand Patented Riser Ventilated Portable Foldable Compatible with MacBook Notebook Tablet Tray Desk Table Book with Free Phone Stand (Black)</p>
+                                    <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.249</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/ele9.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Fire-Boltt Dapper’s 54.61 mm (2.15 inch) IPS Big Screen, GPS Tracking, Compass, Wireless Charging, Bluetooth Calling, 105 Sports Modes, Video Watchfaces (Titanium)</p>
+                                    <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.1,999</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+        
+    </section>
+
+    <div class="footer bg-dark text-white">
+        <div class="row m-0 p-0">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <h4 class="my-2 text-muted">About</h4>
+                <p>Contact us</p>
+                <p>About us</p>
+                <p>ShopKart Stories</p>
+                <p>Press</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <h4 class="my-2 text-muted">Group Companies</h4>
+                <p>Flip Kart</p>
+                <p>Amazon</p>
+                <p>Myntra</p>
+                
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <h4 class="my-2 text-muted">Help</h4>
+                <p>Payment</p>
+                <p>Shipping</p>
+                <p>Cancellation</p>
+                <p>FAQ</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

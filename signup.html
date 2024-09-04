@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: #f1f2f3;
+        }
+        *{
+            margin: 0;
+            padding:0;
+        }
+        .login-content{
+            overflow-y:hidden;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        .b-log{
+            font-weight: 500;
+        }
+        .about-login-page{
+            
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 180px;
+           
+        }
+        .logo-text{
+            font-weight: bold;
+        }
+        .row{
+            margin-left: 30%;
+            margin-right: 30%;
+            height:100vh;
+            background-color: #ffffff;
+            padding:0 !important;
+            
+        }
+
+        input{
+            
+            width:100%;
+            margin-bottom:20px;
+        }
+        .btn{
+            background-color:#fb641b;
+        }
+        
+
+        @media screen and (max-width:576px){
+            .row{
+                margin-left:0;
+                margin-right:0;
+            }
+            
+            
+            
+        }
+        @media screen and (min-width:1350px){
+            .row{
+                margin-left:35%;
+                margin-right:35%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-lg-12 c0l-md-12 col-sm-12 col-12 p-0">
+            <div class="login-page">
+                <div class="about-login-page bg-primary text-light w-100 p-3">
+                    <div>
+                        <p class="logo-text"><i>ShopKart</i></p>
+                    </div>
+                    <div class="b-log">
+                        <p class="mb-1">To continue to...</p>
+                        <p class="mb-0">Sign up with a ShopKart account</p>
+                    </div>
+
+                </div>
+                <div class="login-content p-3">
+                    <div class="form-floating mb-3 mt-4">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Enter First Name">
+                        <label for="floatingInput">First Name</label>
+                      </div>
+                      <div class="form-floating mb-3 mt-4">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Enter Second Name">
+                        <label for="floatingInput">Second Name</label>
+                      </div>
+                    <div class="form-floating mb-3 mt-4">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Enter User Name">
+                        <label for="floatingInput">User Name</label>
+                      </div>
+                    <div class="form-floating mb-3 mt-4">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Enter User Name">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                    <input type="submit" class="btn text-white" value="Register">
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

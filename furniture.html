@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons/css/all.min.css">
+    <script src="icons/js/all.min.js"></script>
+    <style>
+        ul div{
+            display:flex;
+
+        }
+        .prod-img-wrapper{
+            height:300px;
+            margin-bottom:0px;
+        }
+        .flex-1{
+            flex-grow: 1;
+            justify-content: flex-end;
+        }
+        .flex-2{
+            width:30%;
+            justify-content: flex-end;
+            margin-right:10px;
+        }
+
+
+        ul {
+            background: white;
+            padding: 0;
+            margin: 0;
+        }
+        li a {
+            margin-left: 10px;
+        }
+        .search-bar {
+            
+            width:90% !important;
+        }
+        .search-bar input {
+            height: 35px;
+            background-color: #f8f9fa;
+            border: none;
+            width: 70%;
+        }
+
+        @media screen and (max-width:576px){
+            ul div{
+                display:flex;
+                padding: 0 !important;;
+    
+            }
+            .prod-img-wrapper{
+                height:150px;
+                margin-bottom:0px;
+            }
+            .products-item .card{
+                min-height:650px !important;
+            }
+            .nav{
+                padding:0;
+            }
+            .flex-1{
+                width:50%;
+                justify-content: center;
+            }
+            .flex-2{
+                width:45% !important;
+                justify-content: flex-end;
+                margin-right:5px;
+            }
+            li a {
+                margin-left: 5px !important;
+                font-size: 12px;
+            }
+            .search-bar {
+            
+                width:80% !important;
+            }
+
+            
+
+        }
+
+        @media screen and (max-width:992px){
+            li a {
+                margin-left: 10px;
+                
+                
+            }
+            .search-bar {
+                display: flex ;
+                align-items: center ;
+                width:70% ;
+                justify-content: center ;
+            }
+            .search-bar input {
+                height: 35px ;
+                background-color: #f8f9fa;
+                border: none;
+                width: 80% ;
+            }
+
+        }
+    </style>
+</head>
+<body style="background-color: #e2e9f0;">
+    <ul class="nav nav-tabs p-2 align-items-center">
+        <div class="flex-1">
+            <li class="nav-item search-bar d-flex justify-content-center">
+
+                <input type="search" name="search" id="search" placeholder="Search">
+                <button class="btn btn-info text-dark" style="height:35px;"><i class="fa-solid fa-magnifying-glass"></i> </button>                  
+            </li>
+        </div>
+        <div class="d-flex flex-2 flex-end">
+            <li class="nav-item">
+                <a href="index.html" class="text-dark text-decoration-none">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="login.html" class="text-dark text-decoration-none">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Login</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="text-dark text-decoration-none">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Cart</span>
+                </a>
+            </li>
+        </div>
+    </ul>
+    <section class="products-item products-section bg-white my-4" style="padding: 8px;">
+        <h1 class="text-center">Furniture</h1>
+        <div class="container-fluid offersectionholder p-0"> 
+            <div class="row offerrow"style="margin:8px;">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                                <a href="#">
+                                <div class="prod-img-wrapper">
+                                    <img src="images/fur1.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">ErgoSmart by The Sleep Company - Pro Ergonomic Office Chair | Patented SmartGRID Technology | SpinePro Adjustable Cushioned Ergonomic Lumbar Support for Work from Home & Office Chair | Black (Stylux)
+                                    </p>
+                                    <p class="" style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.17,999</p>
+        
+                                </div>
+                            </a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                                <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/fur2.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">ErgoSmart by The Sleep Company - Plus Orthopedic Office Chair | Patented SmartGRID Technology | Adjustable Lumbar Support for Ergonomic Sitting Posture | Multiple Adjustments Mechanism | Black (Onyx)</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.13,999</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/fur3.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Nilkamal SLEEP Acacia Luxurious King Size Wooden Bed, Hardwood with Sturdy Construction & Easy to Assemble (78 x 72, Brown)</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.24,499</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                   
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                            <div class="prod-img-wrapper">
+                            <img src="images/fur4.webp" class="img-fluid" height="300px" class="m-2">
+                            </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">CELLBELL Tauras Lite C100 Mesh High Back Office Chair/Study Chair/Computer Chair/Revolving Chair/Desk Chair for Work from Home Metal Base, Grey</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.5,998</p>    
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/fur5.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Deion Wooden Center Table, End Sofa, Bedside Table, Corner Coffee Table with Solid Finish Space Saving Furniture with Storage for Living Room, Bedroom|Home Decor Items</p>
+                                    <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.949</p>    
+                                        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                            <div class="prod-img-wrapper">
+                            <img src="images/fur6.webp" class="img-fluid" height="300px" class="m-2">
+                            </div>
+                            <div class="card-body" style="width:300px">
+                                <p class="card-title">WOODNETIC Solid Sheesham Wood Bedroom Furniture King Size Double Bed with 1 Drawer Storage Without Mattress for Bedroom, Living Room, Hotel, Guest Room (Standard, Walnut Finish)</p>
+                                <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.26,789</p>        
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/fur7.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">Happer Plastic Premium Multipurpose Wall Mounted Storage Cabinet with Mirror, Prime Look (White)</p>
+                                    <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.997</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/fur8.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">UHUD CRAFTS Beautiful Antique Wooden Fold-able Side Table/End Table/Plant Stand/Stool Living Room Kids Play Furniture Table Round Shape</p>
+                                    <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.399</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6 ">
+                    <div class="d-flex w-100 justify-content-center">                    
+                        <div class="card p-2" style="width:300px">
+                            <a href="#">
+                                <div class="prod-img-wrapper">
+                                <img src="images/fur9.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
+                                <div class="card-body" style="width:300px">
+                                    <p class="card-title">ABOUT SPACE Wooden Cabinet - 3 Tier Engineered Wood Storage Cabinet for Living Room with Magnetic Door, Space Saving Furniture for Home, Office, Kitchen (Walnut -L 38 x B 38 x H 100.5 cm)</p>
+                                    <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.3,799</p>        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+        
+    </section>
+
+    <div class="footer bg-dark text-white">
+        <div class="row m-0 p-0">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <h4 class="my-2 text-muted">About</h4>
+                <p>Contact us</p>
+                <p>About us</p>
+                <p>ShopKart Stories</p>
+                <p>Press</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <h4 class="my-2 text-muted">Group Companies</h4>
+                <p>Flip Kart</p>
+                <p>Amazon</p>
+                <p>Myntra</p>
+                
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <h4 class="my-2 text-muted">Help</h4>
+                <p>Payment</p>
+                <p>Shipping</p>
+                <p>Cancellation</p>
+                <p>FAQ</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
