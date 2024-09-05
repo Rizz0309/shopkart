@@ -8,6 +8,7 @@
 .products-section .card{
     margin-top: 20px;
 }
+
 .nav-nav-items{
     margin-left:15px!important;
 }
@@ -15,6 +16,16 @@ ul{
     background-color:white;
 
 }
+.prod-img-wrapper{
+    height:300px;
+    margin-bottom:120px;
+}
+
+.products-section .prod-img-wrapper{
+    height:300px;
+    margin-bottom:60px;
+}
+
 .cartholder{
     margin-left:10px;
 }
@@ -242,6 +253,22 @@ ul{
 
 
 @media screen and (max-width:576px){ 
+    #prod-not-fix{
+        margin-bottom:80px;
+    }
+    #prod .card{
+        min-height:800px !important;
+    }
+    #prod .prod-img-wrapper{
+        margin-bottom: 0px;
+    }
+    #prod .card-body{
+        margin-top:-100px;
+    }
+    .prod-img-wrapper{
+        height:150px;
+        margin-bottom:10px;
+    }
     .nav-nav-items{
         margin-left:5px!important;
     }
@@ -256,7 +283,7 @@ ul{
         width:100% !important;
     }
     .offersection .card{
-        min-height:840px !important;
+        min-height:728px !important;
     
     }
     .offersection .card{
