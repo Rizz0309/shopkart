@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="icons/css/all.min.css">
     <script src="icons/js/all.min.js"></script>
+    <style>
+        .navigation-images{
+            margin-top: 73px;
+        }
+    </style>
 </head>
 <body style="background-color: #e2e9f0;">
     
@@ -53,7 +58,7 @@
             </div> -->
         </div>
     </div>
-    <ul class="nav nav-expand-lg navigation-images p-2 nav_bar mt-5 mb-2 mx-2">
+    <ul class="nav nav-expand-lg navigation-images p-2 nav_bar mb-2 mx-2">
         <li class="nav-item"><a href="groceries.html" class="nav-link"><div class="nav-item-details">
             <div class="imageholder"><img src="images/new_nav_grocery.webp" class="img-fluid"></div>
             <div class="textholder">Groceries</div>
@@ -224,7 +229,9 @@
                     <div class="d-flex w-100 justify-content-center">
                             <div class="card p-2" style="width:300px">
                                     <a href="#">
+                                    <div class="prod-img-wrapper">
                                     <img src="images/offerimg_1.jpg" class="img-fluid" height="300px" class="m-2">
+                                    </div>
                                     <div class="card-body" style="width:300px">
                                         <p class="card-title">iQOO Neo9 Pro 5G (Fiery Red, 8GB RAM, 128GB Storage) | Snapdragon 8 Gen 2 Processor | Supercomputing Chip Q1 | Flagship Level Sony IMX920 Camera</p>
                                         <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);"><del>Rs.37000</del><span class="offer-price ms-2">Rs.30000</span></p>
@@ -238,7 +245,9 @@
                         <div class="d-flex w-100 justify-content-center">
                             <div class="card p-2" style="width:300px">
                                 <a href="#">
+                                    <div class="prod-img-wrapper">
                                     <img src="images/offerimg_2.jpg" class="img-fluid" height="300px" class="m-2">
+                                    </div>
                                     <div class="card-body" style="width:300px">
                                         <p class="card-title">Acer Aspire Lite AMD Ryzen 5 5500U Premium Metal Laptop (8GB RAM/512GB SSD/Windows 11 Home) AL15-41, 39.62cm (15.6") Full HD Display, Metal Body, Steel Gray, 1.59 Kg</p>
                                         <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);"><del>Rs.36000</del><span class="offer-price ms-2">Rs.33000</span></p>
@@ -251,7 +260,9 @@
                     <div class="d-flex w-100 justify-content-center">
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                                 <img src="images/offer_img3.jpg" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">Sony PS4 Slim 500 GB Console</p>
                                     <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);"><del>Rs.38000</del><span class=" offer-price ms-2">Rs.33400</span></p>
@@ -266,7 +277,9 @@
                         <div class="d-flex w-100 justify-content-center">
                             <div class="card p-2" style="width:300px">
                                 <a href="#">
+                                <div class="prod-img-wrapper">
                                 <img src="images/offer_img4.jpg" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">Bacca Bucci Men's Comfy Mid-Top Casual Chunky Streetwear Fashion Sneakers | Solid Color Pattern with Rubber outsole | Model: Tiger</p>
                                     <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);"><del>Rs.1,499</del><span class="offer-price ms-2">Rs.1,400</span></p>
@@ -281,7 +294,9 @@
                     <div class="d-flex w-100 justify-content-center">
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper" id="prod-not-fix">
                                 <img src="images/offer_img5.jpg" width="90%" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">NextTech All New X7 Handheld Game Console: Unlock The Power of 1000+ PSP Games, Endless Entertainment, and Nostalgic Memories (FIRE Black)
                                         NEXTTECH</p>
@@ -296,7 +311,9 @@
                         <div class="d-flex w-100 justify-content-center">
                             <div class="card" style="width:300px;">
                                 <a href="#">
+                                    <div class="prod-img-wrapper" id="prod-not-fix">
                                     <img src="images/offer_img6.jpg" class="img-fluid" height="300px" class="m-2">
+                                    </div>
                                     <div class="card-body" style="width:300px">
                                         <p class="card-title">Casio Vintage A168WA-8AYDF Brown Digital Dial Silver Stainless Steel Band D332</p>
                                         <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);"><del>Rs.2995 </del><span class="offer-price ms-2">Rs.2000</span></p>
@@ -356,7 +373,7 @@
             </div>
         </div>
     </section>
-    <section class="products-section bg-white my-4" style="padding: 8px;">
+    <section class="products-section bg-white my-4" id="prod" style="padding: 8px;">
         <h1 class="text-center">Exciting Products</h1>
         <div class="container-fluid offersectionholder p-0"> 
             <div class="row offerrow"style="margin:8px;">
@@ -364,7 +381,9 @@
                     <div class="d-flex w-100 justify-content-center">
                         <div class="card p-2" style="width:300px">
                                 <a href="#">
+                                    <div class="prod-img-wrapper">
                                 <img src="images/product1.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">HONOR 200 5G (Black, 8GB + 256GB) | 6.7-inch AMOLED Quad-Curved Display | Dual OIS 50MP + 50MP + 12MP Camera | 50MP Selfie Camera | AI-Powered MagicOS 8.0 | Without Charger</p>
                                     <p class="" style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.34,999</p>
@@ -378,7 +397,9 @@
                     <div class="d-flex w-100 justify-content-center">
                         <div class="card p-2" style="width:300px">
                                 <a href="#">
+                                    <div class="prod-img-wrapper">
                                 <img src="images/prod_2.jpg" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">Dell 15 Thin & Light Laptop, 12th Gen Intel Core i5-1235U Processor, 8GB, 512GB SSD, 15.6" (38) cm FHD Display, Windows 11 + MSO'21, 15 Month McAfee Antivirus, Black, Spill-Resistant Keyboard,1.66kg</p>
                                     <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.45,790</p>        
@@ -392,7 +413,9 @@
                     <div class="d-flex w-100 justify-content-center">
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                                 <img src="images/prod_3.jpg" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">Cable World Plastic Battery Operated Converting Car to Robot, Robot to Car Automatically,Robot Toy, with Light and Sound for Kids Indoor and Outdoor 3 Year, Pack of 1,(Blue)</p>
                                     <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.439</p>        
@@ -407,7 +430,9 @@
                    
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                             <img src="images/prod_4.jpg" class="img-fluid" height="300px" class="m-2">
+                            </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">Allen Solly Men's Regular Fit Polo</p>
                                     <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.799</p>    
@@ -421,7 +446,9 @@
                     <div class="d-flex w-100 justify-content-center">
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                                 <img src="images/prod_5.jpg" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">The Inventions, Researches, and Writings of Nikola Tesla</p>
                                     <p class=""style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.399</p>    
@@ -436,7 +463,9 @@
                     <div class="d-flex w-100 justify-content-center">                    
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                             <img src="images/prod_6.jpg" class="img-fluid" height="300px" class="m-2">
+                            </div>
                             <div class="card-body" style="width:300px">
                                 <p class="card-title">SX Fitness Heavy Duty Multifunctional Wall mount pull up bar, wall mount 3 in 1, Chin up bar, home gym equipments, dip Station for Training at Home for Men, Women</p>
                                 <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.2378</p>        
@@ -450,7 +479,9 @@
                     <div class="d-flex w-100 justify-content-center">                    
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                                 <img src="images/prod_7.jpg" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">Popsugar Off Roader Rechargeable Remote Control Monster Truck with 2 Speeds and 4 Headlight Modes | Lithium Battery | C-Type Charging | Remote Control Car for Kids | Made in India, Black Mat</p>
                                     <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.1,199</p>        
@@ -463,7 +494,9 @@
                     <div class="d-flex w-100 justify-content-center">                    
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                                 <img src="images/prod_8.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">Boult Audio UFO Truly Wireless in Ear Earbuds with 48H Playtime, Built-in App Support, 45ms Low Latency Gaming, 4 Mics ENC, Breathing LEDs, 13mm Bass Drivers Ear Buds TWS, Made in India (White Opal)</p>
                                     <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.1,499</p>        
@@ -476,7 +509,9 @@
                     <div class="d-flex w-100 justify-content-center">                    
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                                 <img src="images/prod_9.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">JASPO Slog Engraver Cricket Kit – Full Size Plastic Bat, Synthetic Ball, Stumps & Kit Bag – Lightweight & Durable Tennis Cricket Plastic Kit (Cricket Kit)</p>
                                     <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.1,999</p>        
@@ -489,7 +524,9 @@
                     <div class="d-flex w-100 justify-content-center">                    
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                                 <img src="images/prod_10.jpg" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">FableStreet Women's Casual A-line Striped Maroon Shirt Dress</p>
                                     <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.2,240</p>        
@@ -503,7 +540,9 @@
                     <div class="d-flex w-100 justify-content-center">                    
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                                 <img src="images/prod_11.jpg" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">Casio G-Shock GM-110G-1A9DR Gold Ip Black & Gold Analog-Digital Dial Black Resin Strap Men's Watch Shock And 200M Water Resistant G1053</p>
                                     <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.18,995</p>        
@@ -516,7 +555,9 @@
                      <div class="d-flex w-100 justify-content-center">                    
                         <div class="card p-2" style="width:300px">
                             <a href="#">
+                                <div class="prod-img-wrapper">
                                 <img src="images/prod_12.webp" class="img-fluid" height="300px" class="m-2">
+                                </div>
                                 <div class="card-body" style="width:300px">
                                     <p class="card-title">Bajaj PMH 36 Torque 36L Personal Air Cooler For Room| Duramarine Pump with 2-Yr Pump Warranty| 3-Yr Warranty (1 Yr Std + 2 Yr Extn)| TurboFan Technology| Powerful Air Throw| 3-Speed Control| Portable</p>
                                     <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.6,790</p>        
