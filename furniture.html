@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="icons/css/all.min.css">
     <script src="icons/js/all.min.js"></script>
     <style>
+        a{
+            text-decoration: none !important;
+            color:black !important;
+        }
         ul div{
             display:flex;
 
         }
-        .prod-img-wrapper{
+    
+        #prod .prod-img-wrapper{
             height:300px;
             margin-bottom:0px;
         }
@@ -53,12 +58,15 @@
                 padding: 0 !important;;
     
             }
-            .prod-img-wrapper{
-                height:150px;
-                margin-bottom:0px;
+            #prod .card{
+                min-height:610px!important;
             }
-            .products-item .card{
-                min-height:650px !important;
+            #prod .prod-img-wrapper{
+                height:150px;
+                margin-bottom:60px;
+            }
+            #prod .products-item .card{
+                min-height:660px !important;
             }
             .nav{
                 padding:0;
@@ -134,7 +142,7 @@
             </li>
         </div>
     </ul>
-    <section class="products-item products-section bg-white mt-5 mb-1" style="padding: 8px;">
+    <section class="products-item products-section bg-white mt-5 mb-1" id="prod" style="padding: 8px;">
         <h1 class="text-center">Furniture</h1>
         <div class="container-fluid offersectionholder p-0"> 
             <div class="row offerrow"style="margin:8px;">
