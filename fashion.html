@@ -13,7 +13,7 @@
             display:flex;
 
         }
-        .prod-img-wrapper{
+        #fas .prod-img-wrapper{
             height:470px;
             margin-bottom:10px;
         }
@@ -26,7 +26,9 @@
             justify-content: flex-end;
             margin-right:10px;
         }
-
+        #fas .products-item .card{
+            min-height:678px !important;
+        }
 
         ul {
             background: white;
@@ -50,15 +52,25 @@
         @media screen and (max-width:576px){
             ul div{
                 display:flex;
-                padding: 0 !important;;
+                padding: 0 !important;
     
             }
-            .prod-img-wrapper{
-                height:300px;
-                margin-bottom: 10px;
+            #fas-not{
+                margin-top:-5px;
             }
-            .products-item .card{
-                min-height:650px !important;
+            #fas .card-body{
+                margin-top:10px;
+            }
+            #fas .prod-img-wrapper{
+                height:300px;
+                margin-bottom:0px;
+            }
+            #fas #fas-not-obey{
+                height:300px;
+                margin-bottom: 85px;
+            }
+            #fas .card{
+                min-height:850px !important;
             }
             .nav{
                 padding:0;
@@ -134,7 +146,7 @@
             </li>
         </div>
     </ul>
-    <section class="products-item products-section bg-white mt-5 mb-1" style="padding: 8px;">
+    <section class="products-item products-section bg-white mt-5 mb-1" id="fas" style="padding: 8px;">
         <h1 class="text-center">Fashion</h1>
         <div class="container-fluid offersectionholder p-0"> 
             <div class="row offerrow"style="margin:8px;">
@@ -271,10 +283,10 @@
                     <div class="d-flex w-100 justify-content-center">                    
                         <div class="card p-2" style="width:300px">
                             <a href="#">
-                                <div class="prod-img-wrapper">
+                                <div class="prod-img-wrapper" id="fas-not-obey">
                                 <img src="images/fas9.webp" class="img-fluid" height="300px" class="m-2">
                                 </div>
-                                <div class="card-body" style="width:300px">
+                                <div class="card-body" id="fas-not"  style="width:300px">
                                     <p class="card-title">Leriya Fashion Ethnic Co Ord Set for Women || Rayon Kurta Pant Set || Office Wear Kurta Set for Women || Casual Kurti Set || Simple Kurta Set for Women || Co Ord Kurta Set for Women</p>
                                     <p class="mb-0"style="font-size:18px ;font-weight: bold;color:rgb(240, 151, 91);">Rs.699</p>        
                                 </div>
